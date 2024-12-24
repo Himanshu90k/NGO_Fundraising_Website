@@ -1,8 +1,11 @@
 import Navbar from "./Navbar";
 import Profile from "./Profile";
-import ContentWindow from "./ContentWindow";
 
-const Dashboard = () => {
+interface DashboardProps {
+    children: React.ReactNode;
+};
+
+const Dashboard: React.FC<DashboardProps> = ({ children }) => {
     return (
         <div className="w-full flex justify-between">
             {/* top bar */}
@@ -40,7 +43,9 @@ const Dashboard = () => {
                 <Profile />
 
                 {/* content window */}
-                <ContentWindow />
+                <div className="w-270 h-240 bg-pageColor">
+                    { children }
+                </div>
             </div>
 
             {/* bottom bar */}
