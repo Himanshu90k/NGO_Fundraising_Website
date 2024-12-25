@@ -17,7 +17,7 @@ const DashboardPage = () => {
             </div>
             <div className='relative w-190 h-135'>
                 <img src={dashboard_image} alt="Dashboard" className="w-full" />
-                <div className='w-170 h-36 bg-lightBlue absolute inset-0 flex flex-col justify-center gap-4 top-56 left-10'>
+                <div className='w-170 h-36 bg-lightBlue absolute inset-0 flex flex-col justify-center gap-4 top-52 left-14'>
                     <h2 className='text-customRed font-inter text-4xl font-semibold pl-10'>Hello Himanshu Rawat,</h2>
                     <p className='text-white font-inter text-base italic font-medium pl-10'>initial push is the toughest! Go through the learning modules, or reach out to your fundraising manager to level up.</p>
                 </div>
