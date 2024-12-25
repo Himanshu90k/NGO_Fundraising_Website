@@ -43,7 +43,7 @@ const Dashboard: React.FC<DashboardProps> = ({ children }) => {
                 <Profile />
 
                 {/* content window */}
-                <div className="w-270 h-240 bg-pageColor">
+                <div className="w-auto h-240 flex flex-col items-center bg-pageColor">
                     { children }
                 </div>
             </div>

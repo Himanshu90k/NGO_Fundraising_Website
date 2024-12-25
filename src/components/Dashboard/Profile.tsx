@@ -3,7 +3,7 @@ import profile from '../../assets/profile.png';
 const Profile = () => {
     return (
         <div className='mr-9 ml-auto flex h-9 items-center gap-3'>
-            <img src={profile} />
+            <img src={profile} alt='profile' />
             <div>
                 <h2 className='text-customBlack font-inter text-base font-bold'>Himanshu Rawat</h2>
                 <div className='flex items-center gap-1'>
